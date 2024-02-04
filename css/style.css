@@ -1,0 +1,122 @@
+/* adding google fonts ----------//---------- */
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Henny+Penny&family=IBM+Plex+Mono:wght@300;500&family=Nosifer&family=Quicksand:wght@300;400;500&family=Roboto+Mono:wght@200;400;500&family=Sometype+Mono:wght@400;600&display=swap');
+
+/* 
+font-family: 'Arvo', serif;
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Nosifer', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Sometype Mono', monospace;
+*/
+
+/* css variables to reuse same color 
+----------++---------- */
+:root {
+  --clr-primary: #cfe4f5;
+  /* --clr-secondary: #f02602; */
+
+  --clr-black: #111111;
+  --clr-white: #fefefe;
+  --clr-light: #282828;
+}
+
+::selection {
+  background-color: var(--clr-primary);
+  color: var(--clr-black);
+}
+
+/* css reset 
+----------++---------- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Arvo', serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+
+  /* responsive navigation */
+  position: relative;
+}
+
+h1, h2 {
+  line-height: 1.2;
+}
+
+a, input, button {
+  display: inline-block;
+  outline: none;
+  border: none;
+  background-color: transparent;
+
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  vertical-align: middle;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: baseline;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+
+
+/* repeated styles 
+----------++---------- */
+
+/* group text style ----------++---------- */
+
+/* header section style 
+----------++---------- */
+
+/* after the header style need to complete this hamburger icon style and design script than add container flex and other designs */
+/* hamburger icon style 
+----------++---------- */
+
+/* responsive navigation style 
+----------++---------- */
+
+/* hero section style 
+----------++---------- */
+
+/* about section style 
+----------++---------- */
+
+/* skills section style 
+----------++---------- */
+
+/* skill group style 
+----------++---------- */
+
+/* portfolio section style 
+----------++---------- */
+
+/* testimonials section style 
+----------++---------- */
+
+/* awards section style 
+----------++---------- */
+
+/* contact section style 
+----------++---------- */
